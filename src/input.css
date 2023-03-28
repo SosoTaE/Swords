@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar{
+    overflow-y: scroll;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    
+    display: none;
+}
+
+.border-1 {
+    border-top: none;
+    border-width: 1px;
+}
+
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.height {
+    max-height: 80vh;
+}
